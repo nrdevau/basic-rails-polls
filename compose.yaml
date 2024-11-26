@@ -1,0 +1,8 @@
+services:
+  web: 
+    build:
+      context: .
+    ports: 
+      - '8072:3000'
+    volumes:
+      - "./app/:/opt/app/"
